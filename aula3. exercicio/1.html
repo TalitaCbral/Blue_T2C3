@@ -1,28 +1,31 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Blueeditech</title>
+        <title>Blueedtech</title>
         <meta charset="utf-8">
         <style>
+            body{
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+            }
             .titulo{
             display: Flex;
             flex-direction: row;
             flex-wrap: wrap;
             justify-content: center;
             align-items: center;
-            background-color: aquamarine;
+            background-color: rgb(255, 255, 255);
             }
             .conteudo{
-                background-color: turquoise;
+                background-color: rgb(117, 236, 224);
                 color: white;
                 padding: 10px;
             }
-            .titulo.turma{
+            .titulo-turma{
                 display: flex;
                 flex-direction: center;
                 justify-content: center;
             }
-            .conteudo.turma{
+            .conteudo-turma{
                 display: flex;
                 flex-direction: row;
                 flex-wrap: nowrap;
@@ -30,23 +33,23 @@
                 color: black
             }
             .agenda{
-                background-color:yellow;
+                background-color:rgb(109, 140, 223);
                 flex-grow: 1;
             }
             .lista{
-                background-color: rgba(233, 92, 198, 0.979);
+                background-color: rgba(255, 95, 215, 0.979);
                 flex-grow: 1;
             }
-            .conteudo.turma.item{
+            .conteudo-turma-item{
                 border-width: 1px black;
                 padding: 10px;
                 border-radius: 20px;
                 margin: 5px;
             }
             .lista table th, td{
-                border: 1px black;
+                border: 1px black solid;
                 padding: 10px;
-                width: 100%;
+                width: 100%
             }
         </style>
     </head>
