@@ -1,8 +1,8 @@
 from flask import Flask, render_template
-from app_blueprint import app_blueprint
+from bp import bp
 
 app = Flask(__name__)
-app.register_blueprint(app_blueprint)
+app.register_blueprint(bp)
 
 if (__name__ == "__main__"):
     app.run(debug=True)
