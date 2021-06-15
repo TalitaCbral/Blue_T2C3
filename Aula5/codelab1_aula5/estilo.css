@@ -1,0 +1,41 @@
+/*Fonte*/
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/*Borda redondinha que cobre tudo*/
+.calculadora-dano{
+    border: 1px solid #414141;
+    border-radius: 20px;
+    background-color: #ffcce1;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+/*Textos*/
+.linha{
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+/*Configura as imagens ( deixa bonitinho)*/
+.elemento-container{
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+/*Textos embaixo das imagens*/
+.elemento-item{
+    text-align: center;
+    font-weight: bold;
+}
+/*Botão de Calcular dano*/
+#calcular{
+    background-color: rgb(243, 99, 207);
+    color: white;
+    border-radius: 20px;
+    border: 1px;
+    padding: 10px;
+}

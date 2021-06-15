@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Formulário Teste</title>
+    </head>
+    <body>
+        <h1>Formulário de Cadastro:</h1>
+        <form method="POST">
+            <div>
+                <label for="nome">Nome: </label> 
+                <input type="text" id="Nome" name="nome" placeholder="Digite seu nome..." /> <br />
+            </div>
+            <div>
+                <label for="senha">Senha: </label> 
+                <input type="password" id="senha" name="senha" placeholder="Digite sua senha..."/> <br />
+            </div>
+            <div>
+                Gênero: <br />
+                <label for="M">Masculino</label>
+                <input type="radio" name="opcao_unica" value="m" id="m" /> <br />
+                <label for="F">Feminino</label>
+                <input type="radio" name="opcao_unica" value="f" id="f" /> <br />
+                <label for="O">Outro</label>
+                <input type="radio" name="opcao_unica" value="o" id="o" /> <br />
+            </div>
+            <div>
+                <label for="sms">Desejo receber SMS</label>
+                <input type="checkbox" name="escolhas" value="sms" id="s" /> <br />
+                <label for="email">Desejo receber e-mail</label>
+                <input type="checkbox" name="escolhas" value="email" id="e" /> <br />
+            </div>
+                <label for="data">Data de Nascimento: </label> 
+                <input type="date" id="data" name="Data" /> <br />
+                <label for="Cidade">Selecione sua Cidade:</label><select id="cidade" name="cidade">
+                    <option disabled selected>Selecione...</option>
+                    <optgroup label="Sul">
+                        <option>Curitiba</option>
+                        <option>Porto Alegre</option>
+                    </optgroup>
+                    <optgroup label="Sudeste">
+                        <option>São Paulo</option>
+                        <option>Rio de Janeiro</option>
+                    </optgroup>
+                    <optgroup label="Nordeste">
+                        <option>João Pessoa</option>
+                        <option>Recife</option>
+                    </optgroup>
+                </select> <br />
+            <input type="submit" value="Enviar" />
+        </form>
+    </body>
+</html>
